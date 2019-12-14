@@ -1,0 +1,624 @@
+
+*::before,
+*::after {
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+body{
+	margin: 0;
+}	
+/* 1 */
+header{
+	text-align: center;
+}
+.blokas1{
+	position: relative;
+}
+
+.pagrindinis img{
+	margin: 0 auto;
+	width: 100%;	
+	background-size: cover;
+}
+.burger{
+	color: #17daa3;
+	line-height: 6px;
+	font-size: 2rem;
+	cursor: pointer;
+	display: none;
+	border: none;
+	background: none;
+	
+
+}
+.meniu{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.meniuJuosta{
+	background: rgba(183, 149, 149, 0.3);
+	padding-top: 65px;
+	font-size: 0.875rem;
+	display: flex;
+	top: 80px;
+	right: 266px;
+	list-style: none;	
+	color: #ffffff;
+}
+
+.menu a{
+	color: #ffffff;
+	text-decoration: none;
+	flex-direction: row;
+}
+.menu a:hover{
+	color: #17daa3;
+}
+
+.menu ul{
+	display: flex;
+	margin-left: 120%;
+}
+
+.menu li{
+	word-spacing: 67px;
+	letter-spacing: 0.025em;
+	line-height: 1.2;
+	padding: 33px;
+	list-style: none;	
+	
+}
+
+.alecto a{
+	font-size: 1.6875rem;
+	top: 57px;
+	left: 265px;
+	color: #ffffff; 
+	text-decoration: none;
+}
+
+.alecto span{
+	color: #17daa3;
+}
+
+.mygt1 .mygtukas{
+	background-color: transparent;
+	border:2px solid #ffffff; 
+	margin-top: 66px;
+}
+
+.titulinis{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.slideText i{
+	font-size: 53px;
+	color: #b8bebf;
+	
+}
+.pirmaEilute h1{
+	margin: 0;
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	text-align: center;
+}
+.pirmaEilute h1 span{
+	line-height: 3;
+	font-size: 3.75rem;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	padding-top: 44px;
+}
+.antraEilute {
+	color: #ffffff;
+	font-size: 1.125rem;
+	font-family: "Heebo", sans-serif;
+	font-weight: 100;
+	
+
+}
+
+/* 2 */
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 111px 0;
+
+}
+.apiemus h2 { 
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	text-align: center;
+	color: #576671;
+	
+	
+}
+.apiemus p {
+	font-size: 1.125rem;
+	text-align: center;
+	color: #87949e;
+	font-family: "Mariad Pro", sans-serif;
+}
+
+.stulpeliai {
+	display: flex;
+	max-width: 100%;
+	text-align: center;
+}		
+
+
+.ikonos a{
+	font-size: 53px; 
+	border-radius: 50%;
+	padding: 64px;
+	display: inline-block;
+	color: #87949e;
+	background-color: #edeff1;
+}
+.ikonos a:hover{
+	background-color: #17daa3;
+	color: #ffffff;
+}
+
+.ikonos {
+	padding: 40px;	
+	max-width: 290px;
+}
+.ikonos h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	
+
+}
+.ikonos p{
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+	max-width: 250px;
+	line-height: 1.5;
+
+	
+}
+.mygt2{
+	margin: 0 auto;
+	text-align: center;
+	
+} 	
+.button2{
+	display: inline;
+	margin-top: 111px;
+	
+	
+}
+
+.mygtukas{
+	padding-top: 17px;
+	padding-bottom: 15px;
+	color: #ffffff;
+	text-decoration-line: none;
+	background-color: #17daa3;
+	border-radius: 28px;
+	border: none;
+	padding-left: 52px;
+	padding-right: 49px;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	display: inline-block;
+
+}
+/* 3 */
+.blokas3{
+	background-color: #f9f9fa;
+	padding: 164px 0;
+}	
+
+.container3{
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.stulpelisDesineje{
+	width: 50%;
+	text-align: left;	
+}
+
+.stulpelisDesineje h2{
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	color: #576671;
+	margin-top: 0;
+}
+
+.stulpelisDesineje p{
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+	line-height: 1.8;
+}
+.mygt3{
+	margin-top: 79px;
+}
+/* 4 */
+.blokas4{
+	padding-bottom: 100px;
+	padding-top: 80px;
+}
+.container4{
+	text-align: right;
+	display: flex;
+	justify-content: flex-right;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.stulpelisKaireje{
+	width: 50%;
+	text-align: right;	
+}
+
+.stulpelisKaireje h2{
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	color: #576671;
+	/* margin-top: 167px; */
+}
+
+.stulpelisKaireje p{
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+	line-height: 1.8;
+}
+.mygt4{
+	margin-top: 79px;
+}
+/* 5 */
+.container5{
+	position: relative;
+  	text-align: center;
+ }
+ .fonas img{
+	width: 100%;
+ }
+
+.tekstasSuNuotrauka{
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	
+}
+.tekstasSuNuotrauka h3{
+	color: #ffffff;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	font-size: 1.875rem;
+	margin-bottom: 0;
+	width: 100%;
+	
+}
+.tekstasSuNuotrauka span{
+	color: #17daa3;
+}
+
+.nuotrauka img{
+	border-radius: 50%;
+
+}
+
+.tekstasSuNuotrauka h5{
+	color: #777777;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.125rem;
+	font-weight: 400;
+
+}
+
+/* 6 */
+.blokas6{
+	background-color: #f9f9fa;
+	padding: 50px 0;
+}
+.container6{
+	margin: 0 auto;
+	max-width: 1200px;
+		
+}
+.pavadinimasTekstas1 h4{
+	text-align: center;
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	color: #576671;
+	margin-top: 0;
+}
+.pavadinimasTekstas1 p{
+	line-height: 2.3955;
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+	text-align: center;
+}	
+		
+.stulpeliai4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 100px;
+		
+}	
+.stulpelis{
+	margin-top: 100px;
+	width: calc(50% - 55px);
+	display: flex;
+}
+.ikonele i{
+	font-size: 32px; 
+	border-radius: 50%;
+	padding: 31px;
+	display: inline-block; 
+	color: #17daa3;
+	background-color: #ffffff;
+}
+.pavadinimasTekstas{
+	text-align: left;
+
+}
+.pavadinimasTekstas h4{
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	color: #576671;
+	margin-top: 0;
+}
+
+.pavadinimasTekstas p{
+	line-height: 2.3955;
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+}
+
+/* 7 */
+.container7{
+	margin-top: 100px;
+}
+.MeetOurTeam h4{
+	text-align: center;
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	color: #576671;
+	margin-top: 100px;
+}
+.MeetOurTeam p{
+	line-height: 2.3955;
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+	text-align: center;
+}	
+
+.galerija{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.galerija img{
+	max-width: 300px;
+	max-height: 300px;
+
+}
+/* 8 */
+.scrollUp{
+	position: fixed;
+	right: 20px; 
+	bottom: 10px; 
+	opacity: 0.25; 
+	color: rgb(3, 114, 221);
+	font-size: 50px;
+	z-index: 100; 
+	cursor: pointer; 
+	display: block;
+}
+
+.placehold{
+	
+	border-radius: 3px;
+	height: 50px;
+	
+	/* width: 30%; */
+	padding-left: 15px;
+	border: 1px solid#ddd;
+}
+
+.placehold1{
+	border-radius: 3px;
+	height: 200px;
+	width: 30%;
+	padding-left: 15px;
+	border: 1px solid#ddd;
+
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.submit{
+    margin-top: 15px;
+}
+
+.container8{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.pasiulymaiTekstas h2{
+	font-size: 3.75rem;
+	font-family: "Raleway",sans-serif;
+	font-weight: 100;
+	color: #576671;
+	margin-top: 0;
+}
+
+.pasiulymaiTekstas p{
+	line-height: 2.3955;
+	font-family: "Heebo", sans-serif;
+	font-weight: 400;
+	color: #87949e;
+	text-align: center;
+}
+
+
+
+@media all and (max-width: 1120px){
+	.stulpeliai{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.pavadinimasTekstas h4{
+		font-size: 2.5rem;
+		
+	}
+	.stulpeliai4{
+		flex-wrap: wrap;
+	}
+}
+@media all and (max-width: 805px){
+	.pavadinimasTekstas h4{
+		font-size: 3rem;
+	}
+	.stulpeliai4{
+		flex-wrap: wrap;
+	}
+
+	.tekstasSuNuotrauka h3{
+		font-size: 1rem;
+		
+	}
+	.tekstasSuNuotrauka h5{		
+		font-size: 0.5rem;
+	}
+	
+	.titulinis{		
+		width: 80%;
+	
+	
+	}
+	.pirmaEilute h1{	
+		font-size: 2.0rem;
+		
+	}
+	
+	.antraEilute {
+		font-size: 0.5rem;
+		
+	
+	
+}
+@media all and (max-width: 620px){
+	.pavadinimasTekstas h4{
+		font-size: 1.5rem;
+	}
+	.ikonele i{
+		font-size: 15px;
+		padding: 16px;
+	}
+	.stulpeliai4{
+		justify-content: space-around;
+	
+	}
+	.burger{
+		display: block;
+		font-size: 1.5rem;
+		position: absolute;
+		right: 60px;
+		top: 10px;
+
+	}
+	
+	.alecto a{
+		font-size: 0.85rem;
+		
+	}
+	.mygt1 .mygtukas{
+		margin-top: 0;
+	}
+	.titulinis{
+		width: 50%;	
+		
+	}
+	.pirmaEilute h1{		
+		font-size: 2rem;
+		
+	}
+	.pirmaEilute h1 span{
+		line-height: 2;
+		font-size: 2rem;
+		padding-top: 0px;
+	}
+	.antraEilute {
+		font-size: 0.8rem;
+	}
+	.menu ul {
+		display: none;
+		
+	}
+	.menu.show ul{
+		display: block;
+		margin: 0 auto;
+		padding-right: 1px;
+
+	}
+	.menu li{
+		background-color: #454444;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		
+	}
+	
+	.menu a{
+		text-align: center;
+	
+		
+	}
+	.meniuJuosta{
+		padding-top: 20px;
+		top: 40px;
+		
+}
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
